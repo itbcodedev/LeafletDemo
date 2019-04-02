@@ -27,9 +27,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/leaflet/dist/leaflet.css",
+              "./node_modules/leaflet-draw/dist/leaflet.draw.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/beautifymarker/leaflet-beautify-marker-icon.css",
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/leaflet/dist/leaflet.js",
+              "./node_modules/beautifymarker/leaflet-beautify-marker-icon.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
